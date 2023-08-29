@@ -1,16 +1,99 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Movie - IMDb Style</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    aside {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header>
+    <h1>My Favorite Movie</h1>
+  </header>
 
+  <nav>
+    <a href="#actor" id="nav-actor">Actors</a>
+    <a href="#quote" id="nav-quote">Quotes</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Summary</h2>
+      <p>Brief summary of the plot of the movie goes here...</p>
+    </section>
+
+    <section id="actor">
+      <h2>Actor</h2>
+      <p>Details about the actors in the movie...</p>
+    </section>
+
+    <section id="quote">
+      <h2>Favorite Quote</h2>
+      <p>Heart of The Stone</p>
+    </section>
+
+    <aside>
+      <p>IMDb Rating: 8.5</p>
+      <p>Release Date: June 15, 2022</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Produced by: John Producer</p>
+  </footer>
 </body>
-
 </html>
